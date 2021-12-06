@@ -1,3 +1,7 @@
+baseurl: ""
+url: "https://asset-demo.netlify.app/" 
+github_username:  daniel-allington
+
 # Build settings
 plugins:
   - jekyll-feed
