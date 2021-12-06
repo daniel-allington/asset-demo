@@ -1,6 +1,6 @@
 ---
 title: Cup of coffee
 layout: image
-source: https://live.staticflickr.com/65535/51727677483_589576eea3_k.jpg
+source: https://pbs.twimg.com/media/FF405LYWYAAqfUc?format=jpg
 tags: coffee
 ---

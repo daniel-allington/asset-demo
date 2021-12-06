@@ -8,6 +8,10 @@
 </head>
 <body>
     <div id = "wrapper">
-    {{ content }}
+        {% assign number_of_tags = page.tags | size %}
+        {% if number_of_tags > 0 %}
+        <p><i class="fa fa-tag" aria-hidden="true"></i> {% for tag in page.tags %}{{ page.tags }} {% endfor %}</p>
+        {% endif %}
+        {{ content }}
     </div>
 </body>
