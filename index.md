@@ -12,7 +12,7 @@ layout: default
 {% endfor %}
 </ul>
 
-## Intermediate approach: embed code in front matter; Liquid tag in layout
+## Intermediate approach: unedited embed code in front matter; Liquid tag in layout
 
 <ul>
 {% for page in site.intermediate %}
@@ -20,7 +20,7 @@ layout: default
 {% endfor %}
 </ul>
 
-## More advanced approach: source link in front matter; code with Liquid tag in layout
+## More advanced approach: source URL in front matter; edited embed code or IMG tag with Liquid tag in layout file
 
 ### Audio
 <ul>
