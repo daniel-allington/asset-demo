@@ -10,23 +10,31 @@ layout: default
 {% endfor %}
 </ul>
 
-## More advanced approach: code in layout; source link in front matter
+## Intermediate approach: embed code in front matter; Liquid tag in layout
 
-Audio
+<ul>
+{% for page in site.intermediate %}
+<li><a href = "{{ page.url }}">{{ page.title }}</a></li>
+{% endfor %}
+</ul>
+
+## More advanced approach: source link in front matter; code with Liquid tag in layout
+
+### Audio
 <ul>
 {% for page in site.audio %}
 <li><a href = "{{ page.url }}">{{ page.title }}</a></li>
 {% endfor %}
 </ul>
 
-Images
+### Images
 <ul>
 {% for page in site.images %}
 <li><a href = "{{ page.url }}">{{ page.title }}</a></li>
 {% endfor %}
 </ul>
 
-Video
+### Video
 <ul>
 {% for page in site.video %}
 <li><a href = "{{ page.url }}">{{ page.title }}</a></li>
