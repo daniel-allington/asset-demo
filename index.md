@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# How to handle assets hosted elsewhere: a demonstration
+
 ## Simple approach: code within page content
 
 <ul>
