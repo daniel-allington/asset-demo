@@ -4,7 +4,7 @@ layout: default
 
 # How to handle assets hosted elsewhere: a demonstration
 
-## Simple approach: code within page content
+## Simple approach: embed code or IMG tag within page content
 
 <ul>
 {% for page in site.simple %}
@@ -12,7 +12,7 @@ layout: default
 {% endfor %}
 </ul>
 
-## Intermediate approach: unedited embed code in front matter; Liquid tag in layout
+## Intermediate approach: unedited embed code in page front matter; Liquid tag in layout file
 
 <ul>
 {% for page in site.intermediate %}
@@ -20,7 +20,7 @@ layout: default
 {% endfor %}
 </ul>
 
-## More advanced approach: source URL in front matter; edited embed code or IMG tag with Liquid tag in layout file
+## More advanced approach: source URL in page front matter; edited embed code or IMG tag with Liquid tag in layout file
 
 ### Audio
 <ul>
