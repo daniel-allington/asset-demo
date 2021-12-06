@@ -1,5 +1,31 @@
 
+iframe {
+    width: 350px;
+}
+
+@media (min-width: 600px) {
+    iframe {
+        width: 500px;
+    }
+}
+
 p {
+    font-family: sans-serif;
+}
+
+ul  {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+h3 {
     font-family: sans-serif;
 }
 
